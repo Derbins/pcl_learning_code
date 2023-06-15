@@ -21,6 +21,3 @@ int main()
     std::cerr << "    " << point.x << " " << point.y << " " << point.z << std::endl;
     return (0);
 }
-
-
-
