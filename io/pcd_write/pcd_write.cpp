@@ -6,8 +6,7 @@ int main()
         // Fill in the cloud data
     cloud.width    = 5;
     cloud.height   = 1;
-    cloud.is_dense = false;
-    cloud.resize (cloud.width * cloud.height);
+    cloud.is_dense = false;  cloud.resize (cloud.width * cloud.height);
 
     for (auto& point: cloud)
     {
@@ -22,3 +21,6 @@ int main()
     std::cerr << "    " << point.x << " " << point.y << " " << point.z << std::endl;
     return (0);
 }
+
+
+
